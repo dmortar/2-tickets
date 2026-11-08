@@ -1,41 +1,10 @@
-# Secrets and local configuration
 .env
 .env.*
 !.env.example
-*.pem
-*.key
-*.p12
-*.pfx
-.pgpass
-
-# Python and Jupyter
 .venv/
-venv/
 __pycache__/
-*.py[cod]
+*.pyc
 .ipynb_checkpoints/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-htmlcov/
-
-# Local artifacts and data
-backups/
-data/
-outputs/
-artifacts/
-*.log
-*.tmp
-*.bak
-*.swp
-*.swo
-*~
-
-# Editors and OS
 .DS_Store
-._*
-Thumbs.db
-.idea/
-.vscode/
-graphify-out/
+data/
+*.log
